@@ -1,0 +1,897 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* 
+    navbar
+*/
+
+#myNavbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+#myNavbar .logo{
+    max-width: 300px;
+}
+
+#myNavbar .para-main{
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat";
+    text-align: right;
+}
+
+#myNavbar .para-main img{
+    max-width: 100%;
+    margin-right: 8px;
+}
+
+#myNavbar .my-nav-link{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+#myNavbar .my-nav-link li{
+    display: inline-block;
+}
+
+#myNavbar .my-nav-link li a{
+    font-size: 21px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 0px 6px 50px;
+}
+
+
+@media screen and (max-width: 1399px) {       
+    #myNavbar .my-nav-link li a{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1199px) {  
+    #myNavbar .logo{
+        height: 50px;
+    }     
+    #myNavbar .my-nav-link li a{
+        padding-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {  
+    #myNavbar .logo{
+        height: 40px;
+    }     
+    #myNavbar .para-main img{
+        height: 27px;
+    }
+    #myNavbar .para-main{
+        font-size: 16px;
+        margin-bottom: 0.25rem;
+    }
+    #myNavbar .my-nav-link li a{
+        padding-left: 25px;
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {  
+    
+#myNavbar{
+    position: static;
+    background-color: #ffbf45;
+}
+    #myNavbar .logo{
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }     
+    #myNavbar .para-main img{
+        height: 25px;
+    }
+    #myNavbar .para-main{
+        font-size: 16px;
+        margin-bottom: 0.25rem;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    #myNavbar .my-nav-link{
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+    
+    #myNavbar .my-nav-link li a{
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding: 4px 16px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {  
+    #myNavbar .my-nav-link li a{
+        letter-spacing: normal;
+        padding: 4px 10px;
+        font-size: 17px;
+    } 
+    #myNavbar .para-main img{
+        height: 23px;
+    }
+    #myNavbar .para-main{
+        font-size: 14px;
+    }
+}
+
+
+
+/* 
+    section 1
+*/
+
+#section1{
+    background-color: #ffbf45;
+}
+
+#section1 .main-para{
+    font-size: 24px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Bebas Neue";   
+    padding: 6px;
+    border: 3px dashed #3d2514;
+    display: inline-block;
+}
+
+#section1 .main-heading{
+    font-size: 114px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+#section1 .sub-heading{
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+
+
+@media screen and (max-width: 1399px) {
+    
+    #section1 .main-para{
+        font-size: 21px;
+    }
+    #section1 .main-heading{
+        font-size: 100px;
+    }
+    
+    #section1 .sub-heading{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    
+    #section1 .main-para{
+        font-size: 17px;
+        margin-bottom: 0.5rem;
+    }
+    #section1 .main-heading{
+        font-size: 80px;
+    }
+    
+    #section1 .sub-heading{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    #section1 .main-para{
+        font-size: 15px;
+        margin-bottom: 0.5rem;
+    }
+    #section1 .main-heading{
+        font-size: 70px;
+    }
+    
+    #section1 .sub-heading{
+        font-size: 35px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+    #section1 .main-para{
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+    #section1 .main-heading{
+        font-size: 50px;
+    }
+    
+    #section1 .sub-heading{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .main-img{
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #section1 .main-para{
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+    #section1 .main-heading{
+        font-size: 50px;
+    }
+    
+    #section1 .sub-heading{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+/* 
+    section 3
+*/
+
+
+#section3 .main-button{
+    display: inline-block;
+    background-color: #ffc045;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    padding: 4px 20px;
+    border: 0;
+}
+
+#section3 .main-heading{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    margin: 1.5rem auto;
+}
+#section3 .main-para{
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    width: 85%;
+    margin: 0 auto;
+}
+
+#section3 .my-card-img{
+    width: 100%;
+    height: auto;
+}
+
+#section3 .my-card-title{
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+
+#section3 .my-card-text{
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+#section3 .my-card-btn{
+    background-color: #bf2222;
+    border: 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    padding: 0.5rem 1.5rem;
+}
+
+#section3 .box{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1199px) {
+    #section3 .main-button{
+        font-size: 21px;
+    }
+    #section3 .main-heading{
+        font-size: 40px;
+    }
+    #section3 .main-para{
+        font-size: 16px;
+        width: 100%;
+    }
+    #section3 .my-card-title{
+        font-size: 32px;
+    }
+    #section3 .my-card-text{
+        font-size: 16px;
+    }
+    #section3 .my-card-btn{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    #section3 .main-button{
+        font-size: 19px;
+    }
+    #section3 .main-heading{
+        font-size: 30px;
+    }
+    #section3 .main-para{
+        font-size: 16px;
+        width: 100%;
+    }
+    #section3 .my-card-title{
+        font-size: 29px;
+    }
+    #section3 .my-card-text{
+        font-size: 16px;
+    }
+    #section3 .my-card-btn{
+        font-size: 16px;
+        padding: 0.25rem 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    #section3 .main-button{
+        font-size: 17px;
+    }
+    #section3 .main-heading{
+        font-size: 30px;
+    }
+    #section3 .main-para{
+        font-size: 15px;
+        width: 100%;
+    }
+    #section3 .my-card-title{
+        font-size: 27px;
+    }
+    #section3 .my-card-text{
+        font-size: 15px;
+    }
+    #section3 .my-card-btn{
+        font-size: 15px;
+        padding: 0.25rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    #section3 .main-button{
+        font-size: 19px;
+    }
+    #section3 .main-heading{
+        font-size: 30px;
+    }
+    #section3 .main-para{
+        font-size: 16px;
+        width: 100%;
+    }
+    #section3 .my-card-title{
+        font-size: 29px;
+    }
+    #section3 .my-card-text{
+        font-size: 16px;
+    }
+    #section3 .my-card-btn{
+        font-size: 16px;
+        padding: 0.25rem 1rem;
+    }
+}
+
+
+
+
+/* 
+    section 4
+*/
+
+#section4 .owl-theme .owl-dots {
+    text-align: left;
+}
+
+#section4 .box{
+    box-shadow: 10px 10px 20px lightgray;
+}
+
+#section4 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+
+#section4 .sub-heading{
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    margin-bottom: 0;
+}
+
+#section4 .main-heading{
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    margin-bottom: 1.5rem;
+}
+
+#section4 .main-para{
+    font-size: 21px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+
+@media screen and (max-width: 1199px) {
+        
+    #section4 .main-heading{
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+    #section4 .sub-heading{
+        font-size: 25px;
+    }
+    #section4 .main-para{
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+        
+    #section4 .main-heading{
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    #section4 .sub-heading{
+        font-size: 19px;
+    }
+    #section4 .main-para{
+        font-size: 16px;
+    }
+}
+
+
+
+
+#section5{
+    background-image: url(../img/section5-img1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0rem;
+}
+
+#section5 .sub-heading{
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+#section5 .main-heading{
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    text-align: center;
+}
+
+#section5 .box{
+    width: 50%;
+    margin: 5rem auto;
+}
+
+#section5 .box .left{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+#section5 .box .right{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+#section5 form input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 1rem;
+    padding: 8px;
+    font-size: 21px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+}
+
+
+#section5 form button{
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #bf2222;
+    border: 0;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+}
+
+
+
+#section5 form input:first-child{
+    border-top: 2px solid lightgray;
+}
+
+
+
+@media screen and (max-width: 1399px) {
+    
+    #section5{
+        padding: 8rem 0rem;
+    }
+    
+    #section5 .box{
+        padding: 3rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    
+    #section5{
+        padding: 6rem 0rem;
+    }
+    
+    #section5 .box{
+        padding: 1.5rem 0rem;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    
+    #section5 .sub-heading{
+        font-size: 25px;
+    }
+
+    
+    #section5 .main-heading{
+        font-size: 40px;
+    }
+    
+    #section5{
+        padding: 4rem 0rem;
+    }
+
+    
+    #section5 .box{
+        width: 55%;
+        margin: 3rem auto;
+    }
+    
+    #section5 .box{
+        padding: 1rem 0;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+    #section5 .sub-heading{
+        font-size: 21px;
+    }
+    #section5 .main-heading{
+        font-size: 30px;
+    }
+    
+    #section5{
+        padding: 4rem 0rem;
+        background-size: contain;
+    }
+    #section5 .box{
+        width: 55%;
+        margin: 1.5rem auto;
+    }
+    #section5 .box{
+        padding: 1rem 0;
+    }
+    #section5 .box .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    #section5 .box .right{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #section5 form .right input:first-child{
+        border-top: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+    
+    #section5 .sub-heading{
+        font-size: 17px;
+    }
+    #section5 .main-heading{
+        font-size: 24px;
+    }
+    
+    #section5{
+        padding: 3rem 0rem;
+        background-size: contain;
+    }
+    #section5 .box{
+        width: 57%;
+        margin: 2rem auto;
+        margin-bottom: 0;
+    }
+    #section5 .box{
+        padding: 0;
+    }
+    #section5 form input{
+        font-size: 16px;
+        padding: 6px;
+    }
+    
+    #section5 form button{
+        padding: 6px;
+        font-size: 16px;
+    }
+}
+
+
+
+/* 
+    footer
+*/
+
+#footer{
+    position: relative;
+    background-color: white;
+    padding: 3rem;
+    padding-top: 0;
+}
+
+
+#footer div.container-fluid{
+    padding: 8rem 3rem;
+    background-image: url(../img/footer-img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#footer .main-para{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+#footer .sub-para{
+    font-size: 21px;
+    color: #ffffff;
+    /* font-weight: 700; */
+    font-family: "Bebas Neue";
+}
+
+#footer .sub-para i{
+    margin-right: 30px;
+    font-size: 29px;
+}
+
+#footer .footer-logo{
+    width: 50%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+
+#footer .right-box{
+    position: relative;
+    height: 100%;
+}
+
+#footer .right-box .inner-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+#footer .icons{
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+    margin-bottom: 30px;
+}
+
+#footer .icons a{
+    text-decoration: none;
+display: inline-block;  
+background-color: #fff;
+color: #3d2514;
+height: 35px;
+width: 35px;
+text-align: center;
+margin-left: 8px;
+border-radius: 50%;
+font-size: 25px;
+line-height: 34px;
+}
+
+#footer .company{
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+}
+
+@media screen and (max-width: 1199px) {
+    #footer div.container-fluid{
+        padding: 6rem 3rem;
+    }
+
+    #footer .sub-para{
+        font-size: 19px;
+    }
+    
+    #footer .sub-para i{
+        margin-right: 20px;
+        font-size: 27px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 991px) {
+    #footer{
+        padding: 0;
+    }
+    #footer .right-box .inner-box{
+        position: absolute;
+        top: 50%;
+        left: unset;
+        right: 0%;
+        transform: translate(0%, -50%);
+        width: max-content;
+    }
+    #footer .footer-logo{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    #footer .right-box .inner-box{
+        position: unset;
+        transform: translate(0%, 0%);
+    }
+    #footer .footer-logo{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    
+#footer .icons{
+    position: static;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#footer .icons a{
+height: 30px;
+width: 30px;
+margin-left: 6px;
+border-radius: 50%;
+font-size: 21px;
+line-height: 29px;
+}
+
+#footer .company{
+    position: static;
+    text-align: center;
+    margin-bottom: 0;
+}
+#footer div.container-fluid{
+    padding: 3rem 1rem;
+}
+#footer .main-para{
+    font-size: 16px;
+}
+}
